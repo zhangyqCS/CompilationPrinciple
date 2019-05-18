@@ -1,0 +1,63 @@
+line 1: int main ( ) 
+line 2: { 
+line 3: int x ; 
+line 4: int y ; 
+line 5: int z ; 
+line 6: int a[10] ; 
+line 7: if ( x > z ) 
+line 8: { 
+line 9: x = x + 
+line 10: y } 
+line 11: else 
+line 12: { 
+line 13: y = y + 
+line 14: z } 
+line 15: } 
+line 16: #
+exp is right!
+(>, x, z, t0)
+(if, t0, _, _)
+(+, x, y, t1)
+(=, t1, _, x)
+(el, _, _, _)
+(+, y, z, t2)
+(=, t2, _, y)
+(ie, _, _, _)
+SYNBL
+NAME    TYP     CAT     ADDR    
+main    PFINFL  f       PFINFL  
+x       int     v       (1,0)   
+y       int     v       (1,4)   
+z       int     v       (1,8)   
+a       AINFL   t       AINFL, 1
+
+TYPEL
+NAME    TYP     
+a       AINFL   
+
+AINFL
+NAME    LOW     UP      CTP     CLEN    
+a       12      52      int     40      
+
+PFINFL
+LEVEL   OFF     FN      ENTYR   PARAM   
+0       0       0       0       0       
+
+1 ( > x z t0 )
+1 ( if t0   )
+2 ( + x y x )
+2 ( el    )
+3 ( + y z y )
+3 ( ie    )
+
+yes
+0         LD R,x    
+1         GT R,z    
+2         FJ R,7    
+3         LD R,x    
+4         ADD R,y   
+5         ST R,x    
+6         JMP 10    
+7         LD R,y    
+8         ADD R,z   
+9         ST R,y    

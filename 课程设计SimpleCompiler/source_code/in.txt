@@ -1,0 +1,170 @@
+28
+Prog_ 
+Prog 
+DivProg 
+VarDecl 
+IdenTab 
+ComSta 
+StaTab 
+AssiSta 
+AssiSta_
+IdenTab_ 
+StaTab_
+Exp 
+Exp_ 
+Item 
+Item_ 
+Fac
+Type 
+IfSta 
+ElseSta 
+IfSta_
+LabSta
+LabSta_
+LabSta'
+WSta
+Swh
+Sdo
+L
+L_
+
+29
+Iden
+{ 
+} 
+, 
+: 
+; 
+=
++ 
+- 
+* 
+/ 
+Num 
+( 
+)
+int 
+double
+char 
+bool
+if 
+else
+goto
+while
+>
+<
+>=
+<=
+==
+!=
+#
+
+51
+Prog_	2	Prog #
+Prog 	5 	Type Iden ( ) ComSta
+
+ComSta		5	{ VarDecl StaTab LabSta }
+
+VarDecl		4	Type IdenTab ; VarDecl
+VarDecl		1	~
+
+IdenTab		2	Iden IdenTab_
+IdenTab_	2	, IdenTab
+IdenTab_	1	~
+
+StaTab		2	AssiSta StaTab_
+StaTab  	2	ComSta StaTab_
+StaTab  	2	IfSta StaTab_
+StaTab_		2	; StaTab
+StaTab_		1	~
+
+IfSta		5	if ( Exp ) IfSta_
+IfSta_		2	ComSta ElseSta
+ElseSta		1	~
+ElseSta		2	else ComSta
+
+AssiSta		3	AssiSta_ = Exp
+AssiSta_	1	Iden
+
+L	    2 	Item L_
+L_ 		3 	+ Item L_
+L_ 		3 	- Item L_
+L_ 		1 	~
+Item	2	Fac Item_
+Item_	3	* Fac Item_
+Item_	3	/ Fac Item_
+Item_	1	~
+Fac		1	Num
+Fac		1	Iden
+Fac		3	( Exp )
+
+Type	1	int
+Type	1	double
+Type	1	char
+
+LabSta	3	LabSta_ StaTab LabSta
+LabSta_	2	LabSta' :
+LabSta'	1	Iden
+LabSta 	3	goto Iden ;
+LabSta 	1	~
+
+StaTab	2	WSta StaTab_
+WSta	3	Swh Sdo ComSta
+Swh		1	while
+Sdo		3	( Exp ) 
+
+Exp 	2	L Exp_
+Exp_	3	> L Exp_
+Exp_	3	< L Exp_
+Exp_	3	>= L Exp_
+Exp_	3	<= L Exp_
+Exp_	3	== L Exp_
+Exp_	3	!= L Exp_
+Exp_	1	~
+Type	1	bool
+23
+
+14	4	3
+15	6	1
+17	5	0
+
+18	3	2
+19	2	0
+21	1	1		
+22	1	1	
+25	1	1	
+26	1	1	
+28	2	0	
+29	2	0
+
+35	7	1
+36	2	0
+37	8	1
+
+40	9	2
+41	10	0
+42	11	2
+
+44	1	1
+45	1	1
+46	1	1
+47	1	1
+48	1	1
+49	1	1
+
+int main( ) 
+{ 
+	int x;
+	int y;
+	int z;
+	int a[10];
+	if(x > z) 
+	{
+		x = x + y
+	}
+	else 
+	{
+		y = y + z
+	}
+}
+#

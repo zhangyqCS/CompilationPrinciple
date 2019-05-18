@@ -1,0 +1,30 @@
+Vnull:
+Exp_
+Item_
+
+First:
+Exp : Num (
+Exp_ : + -
+Item : Num (
+Item_ : * /
+Fac : Num (
+
+Follow:
+Exp : )
+Exp_ : )
+Item : + - )
+Item_ : + - )
+Fac : + - * / )
+
+Select:
+Exp : Item Exp_ [ Num ( ]
+Exp_ : + Item Exp_ [ + ]
+Exp_ : - Item Exp_ [ - ]
+Exp_ : ~ [ ) ]
+Item : Fac Item_ [ Num ( ]
+Item_ : * Fac Item_ [ * ]
+Item_ : / Fac Item_ [ / ]
+Item_ : ~ [ + - ) ]
+Fac : Num [ Num ]
+Fac : ( Exp ) [ ( ]
+

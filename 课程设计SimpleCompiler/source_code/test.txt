@@ -1,0 +1,32 @@
+Prog_	2	Prog #
+Prog 	5 	Type Iden ( ) ComSta
+ComSta		4	{ VarDecl StaTab }
+VarDecl		3	Type IdenTab ;
+VarDecl		1	~
+IdenTab		2	Iden IdenTab_
+IdenTab_	2	, IdenTab
+IdenTab_	1	~
+StaTab		2	AssiSta StaTab_
+StaTab  	2	ComSta StaTab_
+StaTab    	2	IfSta StaTab_
+StaTab_		2	; StaTab
+StaTab_		1	~
+IfSta		5	if ( Exp ) StaTab ElseSta
+ElseSta		1	~
+ElseSta		2	else StaTab 
+AssiSta		3	AssiSta_ = Exp
+AssiSta_	1	Iden
+Exp	    2 	Item Exp_
+Exp_ 	3 	+ Item Exp_
+Exp_ 	3 	- Item Exp_
+Exp_ 	1 	~
+Item	2	Fac Item_
+Item_	3	* Fac Item_
+Item_	3	/ Fac Item_
+Item_	1	~
+Fac		1	Num
+Fac		1	Iden
+Fac		3	( Exp )
+Type	1	int
+Type	1	real
+Type	1	char

@@ -1,0 +1,17 @@
+Prog_ 
+Prog 
+DivProg 
+VarDecl 
+IdenTab 
+ComSta 
+StaTab 
+AssiSta 
+AssiSta_
+IdenTab_ 
+StaTab_
+Exp 
+Exp_ 
+Item 
+Item_ 
+Fac
+Type

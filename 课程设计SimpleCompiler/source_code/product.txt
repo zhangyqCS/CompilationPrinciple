@@ -1,0 +1,62 @@
+Prog_	2	Prog #
+Prog 	5 	Type Iden ( ) ComSta
+ComSta		4	{ VarDecl StaTab }
+VarDecl		3	Type IdenTab ;
+VarDecl		1	~
+IdenTab		2	Iden IdenTab_
+IdenTab_	2	, IdenTab
+IdenTab_	1	~
+StaTab		2	AssiSta StaTab_
+StaTab  	2	ComSta StaTab_
+StaTab    	2	IfSta StaTab_
+StaTab_		2	; StaTab
+StaTab_		1	~
+IfSta		5	if ( Exp ) {} //
+IfSta_		2	StaTab ElseSta {} //
+ElseSta		1	~
+ElseSta		2	else {} StaTab // 
+AssiSta		3	AssiSta_ = Exp 			//
+AssiSta_	1	Iden
+Exp	    2 	Item Exp_
+Exp_ 	3 	+ Item Exp_		//
+Exp_ 	3 	- Item Exp_		//
+Exp_ 	1 	~
+Item	2	Fac Item_
+Item_	3	* Fac Item_		//
+Item_	3	/ Fac Item_		//
+Item_	1	~
+Fac		1	Num {}	//
+Fac		1	Iden {}	//
+Fac		3	( Exp )
+Type	1	int
+Type	1	real
+Type	1	char
+LabSta	3	LabSta_ StaTab LabSta
+LabSta_	2	LabSta' : {7}//
+LabSta'	1	Iden {2}	//
+LabSta 	3	goto Iden {8} ; //
+LabSta 	1	~
+StaTab	2	WSta StaTab_
+WSta	3	Swh Sdo ComSta {9} //
+Swh		1	while {10} //
+Sdo		3	( Exp )  {11} //
+Exp 	2	L Exp_
+Exp_	3	> L Exp_	//
+Exp_	3	< L Exp_	//
+Exp_	3	>= L Exp_	//
+Exp_	3	<= L Exp_	//
+Exp_	3	== L Exp_	//
+Exp_	3	!= L Exp_	//
+Exp_	1	~
+
+(1)GEQ 
+(2)PUSH 
+(3)ASSI 
+(4)IF 
+(5)ELSE 
+(6)ENDIF
+(7)LAB
+(8)GOTO
+(9)WE
+(10)WH
+(11)DO

@@ -1,0 +1,13 @@
+5 Exp Exp_ Item Item_ Fac
+7 + - * / Num ( )
+10
+Exp	    2 	Item Exp_
+Exp_ 	3 	+ Item Exp_
+Exp_ 	3 	- Item Exp_
+Exp_ 	1 	~
+Item	2	Fac Item_
+Item_	3	* Fac Item_
+Item_	3	/ Fac Item_
+Item_	1	~
+Fac		1	Num
+Fac		3	( Exp )

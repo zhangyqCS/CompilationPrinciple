@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<FileVersion major="1" minor="0" />
+	<ActiveTarget name="Debug" />
+	<File name="optimizequa.cpp" open="1" top="0" tabpos="10" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="12149" topLine="79" />
+		</Cursor>
+		<Folding>
+			<Collapse line="7" />
+			<Collapse line="22" />
+			<Collapse line="26" />
+			<Collapse line="28" />
+			<Collapse line="30" />
+			<Collapse line="37" />
+			<Collapse line="39" />
+			<Collapse line="41" />
+			<Collapse line="51" />
+			<Collapse line="53" />
+			<Collapse line="55" />
+			<Collapse line="68" />
+			<Collapse line="71" />
+			<Collapse line="74" />
+			<Collapse line="82" />
+			<Collapse line="90" />
+			<Collapse line="94" />
+			<Collapse line="102" />
+			<Collapse line="114" />
+		</Folding>
+	</File>
+	<File name="parser.h" open="1" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="156" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="optimizequa.h" open="1" top="0" tabpos="11" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="243" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="target.h" open="1" top="0" tabpos="14" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1054" topLine="48" />
+		</Cursor>
+	</File>
+	<File name="Grammar.cpp" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2416" topLine="7" />
+		</Cursor>
+		<Folding>
+			<Collapse line="4" />
+			<Collapse line="6" />
+			<Collapse line="11" />
+			<Collapse line="13" />
+			<Collapse line="15" />
+			<Collapse line="22" />
+			<Collapse line="24" />
+			<Collapse line="26" />
+		</Folding>
+	</File>
+	<File name="Grammar.h" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="226" topLine="9" />
+		</Cursor>
+	</File>
+	<File name="SymbolTable.cpp" open="1" top="1" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3439" topLine="57" />
+		</Cursor>
+		<Folding>
+			<Collapse line="5" />
+			<Collapse line="8" />
+			<Collapse line="11" />
+			<Collapse line="14" />
+			<Collapse line="17" />
+			<Collapse line="26" />
+			<Collapse line="27" />
+			<Collapse line="29" />
+			<Collapse line="35" />
+			<Collapse line="36" />
+			<Collapse line="40" />
+			<Collapse line="46" />
+			<Collapse line="49" />
+			<Collapse line="51" />
+			<Collapse line="55" />
+			<Collapse line="64" />
+			<Collapse line="71" />
+			<Collapse line="176" />
+			<Collapse line="181" />
+			<Collapse line="188" />
+			<Collapse line="193" />
+			<Collapse line="203" />
+			<Collapse line="204" />
+			<Collapse line="207" />
+			<Collapse line="222" />
+			<Collapse line="226" />
+			<Collapse line="228" />
+			<Collapse line="232" />
+			<Collapse line="238" />
+			<Collapse line="241" />
+			<Collapse line="244" />
+			<Collapse line="245" />
+			<Collapse line="246" />
+			<Collapse line="248" />
+		</Folding>
+	</File>
+	<File name="lexer.cpp" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1294" topLine="0" />
+		</Cursor>
+		<Folding>
+			<Collapse line="5" />
+			<Collapse line="6" />
+			<Collapse line="7" />
+			<Collapse line="15" />
+			<Collapse line="16" />
+			<Collapse line="17" />
+		</Folding>
+	</File>
+	<File name="complier.h" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="565" topLine="16" />
+		</Cursor>
+	</File>
+	<File name="lexer.h" open="1" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="200" topLine="16" />
+		</Cursor>
+	</File>
+	<File name="lexical.cpp" open="1" top="0" tabpos="12" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="complier.cpp" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1350" topLine="45" />
+		</Cursor>
+		<Folding>
+			<Collapse line="5" />
+			<Collapse line="20" />
+			<Collapse line="36" />
+			<Collapse line="44" />
+			<Collapse line="51" />
+		</Folding>
+	</File>
+	<File name="SymbolTable.h" open="1" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1412" topLine="45" />
+		</Cursor>
+	</File>
+	<File name="parser.cpp" open="1" top="0" tabpos="13" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3122" topLine="12" />
+		</Cursor>
+		<Folding>
+			<Collapse line="5" />
+			<Collapse line="7" />
+			<Collapse line="10" />
+			<Collapse line="18" />
+			<Collapse line="20" />
+			<Collapse line="26" />
+		</Folding>
+	</File>
+	<File name="lexical.h" open="1" top="0" tabpos="15" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="5412" topLine="176" />
+		</Cursor>
+		<Folding>
+			<Collapse line="15" />
+			<Collapse line="20" />
+			<Collapse line="43" />
+			<Collapse line="50" />
+		</Folding>
+	</File>
+</CodeBlocks_layout_file>

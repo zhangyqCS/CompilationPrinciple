@@ -1,0 +1,92 @@
+# depslib dependency file v1.0
+1545448583 source:c:\users\test\desktop\simple_complier\complier.cpp
+	<bits/stdc++.h>
+	"Complier.h"
+
+1545447808 c:\users\test\desktop\simple_complier\complier.h
+	<bits/stdc++.h>
+	"Grammar.h"
+	"Lexer.h"
+	"parser.h"
+	"SymbolTable.h"
+	"optimizequa.h"
+	"lexical.h"
+	"Target.h"
+
+1545054867 c:\users\test\desktop\simple_complier\grammar.h
+	<bits/stdc++.h>
+
+1545309797 c:\users\test\desktop\simple_complier\lexer.h
+	<bits/stdc++.h>
+	"Grammar.h"
+
+1545402999 c:\users\test\desktop\simple_complier\parser.h
+	<bits/stdc++.h>
+	"Grammar.h"
+	"Lexer.h"
+	"SymbolTable.h"
+	"optimizequa.h"
+
+1545219337 source:c:\users\test\desktop\simple_complier\grammar.cpp
+	<bits/stdc++.h>
+	"Grammar.h"
+
+1545321656 source:c:\users\test\desktop\simple_complier\lexer.cpp
+	<bits/stdc++.h>
+	"Lexer.h"
+
+1545445633 source:c:\users\test\desktop\simple_complier\parser.cpp
+	<bits/stdc++.h>
+	"Parser.h"
+
+1545445671 source:c:\users\test\desktop\simple_complier\symboltable.cpp
+	<bits/stdc++.h>
+	"SymbolTable.h"
+
+1545399094 c:\users\test\desktop\simple_complier\symboltable.h
+	<bits/stdc++.h>
+	"lexer.h"
+
+1545448583 source:c:\users\test\desktop\simple_complier\optimizequa.cpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<stdlib.h>
+	"optimizequa.h"
+
+1545448602 c:\users\test\desktop\simple_complier\optimizequa.h
+	<iostream>
+	<cstring>
+	<stdio.h>
+	<stdlib.h>
+	<vector>
+	<bits/stdc++.h>
+
+1545439532 source:c:\users\test\desktop\simple_complier\lexical.cpp
+
+1545448974 c:\users\test\desktop\simple_complier\lexical.h
+	<cstdio>
+	<vector>
+	<cstdlib>
+	<algorithm>
+	<string>
+	<stack>
+	<iostream>
+	<utility>
+	<map>
+	<iomanip>
+
+1545448583 c:\users\test\desktop\simple_complier\target.h
+	"optimizequa.h"
+	<cstdio>
+	<vector>
+	<cstdlib>
+	<algorithm>
+	<string>
+	<stack>
+	<iostream>
+	<utility>
+	<map>
+	<set>
+	<iomanip>
+
